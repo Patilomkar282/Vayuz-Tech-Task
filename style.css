@@ -1,0 +1,159 @@
+
+.navbar{
+  display:flex;
+background:rgb(120, 120, 120);
+ position:fixed;
+  width:1350px;
+  height:70px;
+}
+.navbar img{
+  padding:10px;
+  margin-left:50px;
+}
+.navbar li{
+  list-style:none;
+  margin-top:20px;
+  font-size:20px;
+  justify-content:center;
+  
+}
+.navbar li a{
+text-decoration:none;
+margin:30px;
+  color:white;
+  
+ 
+}
+.body{
+  width:100%;
+  height:10vh;
+  display:grid;
+  place-items:center;
+}
+.imageslider{
+  width:100%;
+  height:100vh;
+  animation:changeImage 20s linear infinite;
+  background-image: url('https://reliasoftware.com/static/9ce8aa204a21e69716018fee472b042c/the-complete-guide-to-mobile-app-development-2021.png');
+  
+}
+@keyframes changeImage{
+  0%{
+    background-image:url('https://reliasoftware.com/static/9ce8aa204a21e69716018fee472b042c/the-complete-guide-to-mobile-app-development-2021.png');
+  }
+  25%{
+    background-image:url('https://qph.fs.quoracdn.net/main-qimg-15674983fe3b9eab6e4df7cc149024f7-lq');
+  }
+  50%{
+    background-image:url('https://image.shutterstock.com/image-vector/vector-creative-illustration-business-startup-260nw-437678707.jpg');
+  }
+  70%{
+    background-image:url('https://www.wearable-technologies.com/wp-content/uploads/2020/12/Mobility-Solutions-and-Wearables-in-Warehouse-1.jpg');
+  }
+  100%{
+    background-image:url('https://artoonsolutions.com/wp-content/uploads/2019/06/Game-App-Development.png');
+  }
+}
+.about h1{
+  color:yellow;
+  font-size:50px;
+}
+.services{
+display:flex;
+}
+.mobile{
+  margin-left: 60px;
+  margin-top: 60px;
+ border: black solid;
+ width:350px;
+}
+.mobimg{
+  width:350px;
+  height: 300px;
+}
+.container {
+  border: 2px solid #ccc;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px ;
+  width:450px;
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.container span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+@media (max-width: 500px) {
+  .container {
+      text-align: center;
+  }
+  .container img {
+      margin: auto;
+      float: none;
+      display: block;
+  }
+}
+.testimonials{
+  display:flex;
+}
+ h1{
+  color:yellow;
+  font-size:50px;
+}
+.Footer{
+  width:100%;
+  background:rgb(60, 60, 60);
+  display:flex;
+  
+}
+.menu h2{
+  color:white;
+}
+.menu{
+  margin:20px;
+}
+.menu a{
+  color:white;
+  text-decoration:none;
+  font-size:20px;
+}
+.info{
+  margin-left: 60px;
+  margin-top: 60px;
+ border: black solid;
+ width:350px;
+padding:10px;
+
+}
+.info p{
+  color:white;
+}
+.newsletter{
+  margin-left:70px;
+}
+.newsletter input{
+height:20px;
+}
+.newsletter button{
+  background:white;
+  width:120px;
+  height:30px;
+  cursor:pointer;
+}
+.newsletter button:hover{
+  background:blue;
+}

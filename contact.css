@@ -1,0 +1,88 @@
+.navbar{
+  display:flex;
+background:rgb(120, 120, 120);
+ position:fixed;
+  width:1350px;
+  height:70px;
+}
+.navbar img{
+  padding:10px;
+  margin-left:50px;
+}
+.navbar li{
+  list-style:none;
+  margin-top:20px;
+  font-size:20px;
+  justify-content:center;
+  
+}
+.navbar li a{
+text-decoration:none;
+margin:30px;
+  color:white;
+  
+ 
+}
+.cover{
+ margin-top:50px;
+  
+}
+.top-left {
+  position: absolute;
+  top: 200px;
+  left: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.Footer{
+  width:100%;
+  background:rgb(60, 60, 60);
+  display:flex;
+  
+}
+.menu h2{
+  color:white;
+}
+.menu{
+  margin:20px;
+}
+.menu a{
+  color:white;
+  text-decoration:none;
+  font-size:20px;
+}
+.info{
+  margin-left: 60px;
+  margin-top: 60px;
+ border: black solid;
+ width:350px;
+padding:10px;
+
+}
+.info p{
+  color:white;
+}
+.newsletter{
+  margin-left:70px;
+}
+.newsletter input{
+height:20px;
+}
+.newsletter button{
+  background:white;
+  width:120px;
+  height:30px;
+  cursor:pointer;
+}
+.newsletter button:hover{
+  background:blue;
+}
